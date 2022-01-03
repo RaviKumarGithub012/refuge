@@ -1,0 +1,5 @@
+export const TOP_SELLING = "TOP_SELLING";
+export const TOTAL_SALES = "TOTAL_SALES";
+export const NON_FULFILLED = "NON_FULFILLED";
+export const TOTAL_PAID_UNPAID = "TOTAL_PAID_UNPAID";
+

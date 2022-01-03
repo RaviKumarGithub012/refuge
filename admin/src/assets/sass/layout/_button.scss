@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+////// Created by Himanshu Madhan//////
+
+@mixin button-bg($bg, $text) {
+  background-color: $bg;
+  color: $text;
+  position: relative;
+  @include border-radius(4px);
+  &:hover {
+    @include transition(all 0.15s ease-in-out);
+  }
+}
